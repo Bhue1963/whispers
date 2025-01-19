@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Whispers of a Divine Soul - Nourishing The Spirit, One Poem At A Time.">
+    <title>Whispers of a Divine Soul</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #121212; /* Black background for overall dark theme */
+            color: #fff; /* White text for readability */
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #e74c3c; /* Red background for header */
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.4rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 0;
+            background-color: #222222; /* Dark gray for contrast */
+            color: #ecf0f1;
+        }
+
+        .hero img {
+            width: 280px;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5); /* More intense shadow around image */
+        }
+
+        .cta {
+            max-width: 600px;
+            text-align: left;
+            margin-left: 40px;
+        }
+
+        .cta h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: #e74c3c; /* Red color for emphasis */
+            letter-spacing: 1.5px;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 14px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #c0392b; /* Darker red on hover */
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        section {
+            padding: 50px 0;
+            background-color: #181818; /* Dark section background */
+            margin: 30px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 2.4rem;
+            margin-bottom: 15px;
+            color: #e74c3c;
+        }
+
+        .about p,
+        .author p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .testimonials {
+            background-color: #333333; /* Dark background for testimonials */
+        }
+
+        .testimonial {
+            background-color: #2c3e50; /* Slightly lighter for contrast */
+            border: 1px solid #444;
+            margin-bottom: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+        }
+
+        .testimonial-photo {
+            width: 50px;  /* Size of circular image */
+            height: 50px;  /* Size of circular image */
+            border-radius: 50%;  /* Makes the image circular */
+            margin-right: 20px;  /* Adds space between the image and the text */
+        }
+
+        .testimonial p {
+            font-size: 1rem;
+            color: #bdc3c7; /* Light text color for testimonials */
+            margin: 0;
+        }
+
+        .contact form {
+            display: grid;
+            gap: 18px;
+        }
+
+        .contact label {
+            font-size: 1.1rem;
+        }
+
+        .contact input, .contact textarea {
+            padding: 14px;
+            font-size: 1.1rem;
+            border: 1px solid #444;
+            border-radius: 8px;
+            background-color: #333333;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .contact input:focus, .contact textarea:focus {
+            border-color: #e74c3c;
+            background-color: #444;
+        }
+
+        footer {
+            background-color: #222222;
+            color: #fff;
+            padding: 25px;
+            text-align: center;
+            border-top: 4px solid #e74c3c;
+        }
+
+        footer p {
+            font-size: 1.1rem;
+        }
+
+        button, input[type="submit"], .btn {
+            border: 2px solid #e74c3c;
+            background-color: #333333;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        button:hover, input[type="submit"]:hover, .btn:hover {
+            background-color: #e74c3c;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Whispers of a Divine Soul</h1>
+            <p>Nourishing The Spirit, One Poem At A Time</p>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <img src="front and back cover.jpg" alt="Whispers of a Divine Soul - Book Cover" class="book-cover">
+            <div class="cta">
+                <h2>Discover Your Inner Journey</h2>
+                <p>Whispers of a Divine Soul will guide you through a transformative spiritual experience that will awaken the Divine Spirit within you.</p>
+                <a href="https://www.amazon.com/dp/B0DRSWND8Q?ref=ppx_yo2ov_dt_b_fed_asin_title" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="container">
+            <h2>About the Book</h2>
+            <p>"Whispers of a Divine Soul" is a spiritual masterpiece, offering a deep exploration of the soul's journey and connection with the Divine Spirit. Through beautifully woven words and insights, it opens doors to a deeper understanding of our existence, purpose, and the quiet whispers of our soul calling for awakening.</p>
+            <p>This book is for anyone who seeks to embrace their spirituality and explore the connection between the material and Spirit realm.</p>
+        </div>
+    </section>
+    
+    <section class="author">
+        <div class="container">
+            <h2>About the Author</h2>
+            <p><strong>Robert (Bobby) Hueston </strong> is a passionate writer and spiritual seeker who believes in the transformative power of self-awareness and mindfulness. With a deep interest in the mysteries of the soul, and spirit [Robert] writes to guide others toward spiritual enlightenment and personal growth.</p>
+            <p>Through "Whispers of a Divine Soul," [Robert] hopes to inspire readers to embark on their own soul’s journey.</p>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Readers Are Saying</h2>
+            <div class="testimonial">
+                <img src="Jay p Cotton.jpg" alt="Jay P Cotton" class="testimonial-photo">
+                <p>"My guy did his thing. Great book of great poems" – <em>Pastor Jay Cotton</em></p>
+            </div>
+            <div class="testimonial">
+                <img src="Pastor James Garner.jpg" alt="Pastor James Garner" class="testimonial-photo">
+                <p>"A beautifully written masterpiece that spoke to my soul. Highly recommend it to anyone on a spiritual path." – <em>Pastor James Garner</em></p>
+            </div>                 <img src="Alfonz Driggers.jpg" alt="Alfonz Driggers" class="testimonial-photo"> <img src="Charles.jpg" alt="Charles" class="testimonial-photo"> <img src="chris.jpg" alt="chris" class="testimonial-photo"> <img src="Jeff.jpg" alt="Jeff" class="testimonial-photo"> <img src="Missionary Barbara.jpg" alt="Missionary Barbara" class="testimonial-photo"> <img src="Netta.jpg" alt="Netta" class="testimonial-photo"> <img src="Mr. Bill.jpg" alt="Mr. Bill" class="testimonial-photo"> <img src="Felisha.jpg" alt="Felisha" class="testimonial-photo">
+
+            <!-- Add additional testimonials as needed -->
+        </div>
+    </section>
+
+    <!-- New Business Cards Section -->
+    <section class="business-cards">
+        <div class="container">
+            <h2>Business Cards</h2>
+            <p>Connect with me through my digital Business cards:</p>
+            <a href="https://blinq.me/towJCvYwcsWiJPC4fRUP?bs=db" target="_blank" class="btn">BM</a>
+            <a href="https://blinq.me/cm5nxv2fc1g84cpoq9vj7lq3m?bs=db" target="_blank" class="btn">My Book</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact & Connect</h2>
+            <p>If you would like to learn more about the book or get in touch with the author, please contact us through the form below:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Whispers of a Divine Soul. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
