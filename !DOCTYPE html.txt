@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+     <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +16,7 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background-color: #121212; /* Black background for overall dark theme */
+            background-color: #121212; /* Dark background for overall theme */
             color: #fff; /* White text for readability */
         }
 
@@ -29,11 +30,18 @@
             color: #fff;
             padding: 60px 0;
             text-align: center;
-            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); /* Depth with shadow */
+        }
+
+        header img {
+            width: 120px; /* Smaller logo size */
+            margin-bottom: 20px; /* Space between logo and title */
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
         }
 
         header h1 {
-            font-size: 3.5rem;
+            font-size: 5rem; /* Larger title font size */
             margin-bottom: 10px;
             letter-spacing: 2px;
         }
@@ -49,7 +57,7 @@
             align-items: center;
             justify-content: center;
             padding: 60px 0;
-            background-color: #222222; /* Dark gray for contrast */
+            background-color: #222222; /* Dark gray background for contrast */
             color: #ecf0f1;
         }
 
@@ -141,7 +149,7 @@
             font-size: 1rem;
             color: #bdc3c7; /* Light text color for testimonials */
             margin: 0;
-        }
+          }
 
         .contact form {
             display: grid;
@@ -190,11 +198,48 @@
             background-color: #e74c3c;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
         }
+
+        /* Spiritual Corner Section Styles */
+        .spiritual-corner {
+            background-color: #2c3e50; /* Dark blue-grey background for the spiritual section */
+            padding: 50px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin: 30px 0;
+        }
+
+        .spiritual-corner h2 {
+            font-size: 2.4rem;
+            margin-bottom: 20px;
+            color: #e74c3c; /* Red color for emphasis */
+        }
+
+        .spiritual-corner p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            color: #ecf0f1;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .spiritual-video {
+            max-width: 500px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
+          <img src="me prayin.jpg"
             <h1>Whispers of a Divine Soul</h1>
             <p>Nourishing The Spirit, One Poem At A Time</p>
         </div>
@@ -202,7 +247,9 @@
     
     <section class="hero">
         <div class="container">
-            <img src="front and back cover.jpg" alt="Whispers of a Divine Soul - Book Cover" class="book-cover">
+            <img src="whispers 1.jpg" alt="Whispers of a Divine Soul - Book Cover" class="book-cover">
+            <img src="whispers 2.jpg" alt="Whispers of a Divine Soul - Book Cover" class="book-cover">
+            <img src="whispers back.jpg" alt="Whispers of a Divine Soul - Book Cover" class="book-cover">
             <div class="cta">
                 <h2>Discover Your Inner Journey</h2>
                 <p>Whispers of a Divine Soul will guide you through a transformative spiritual experience that will awaken the Divine Spirit within you.</p>
@@ -231,19 +278,18 @@
         <div class="container">
             <h2>What Readers Are Saying</h2>
             <div class="testimonial">
-                <img src="Jay p Cotton.jpg" alt="Jay P Cotton" class="testimonial-photo">
+                <img src="JaypCotton.jpg" alt="JayPCotton" class="testimonial-photo">
                 <p>"My guy did his thing. Great book of great poems" – <em>Pastor Jay Cotton</em></p>
             </div>
             <div class="testimonial">
-                <img src="Pastor James Garner.jpg" alt="Pastor James Garner" class="testimonial-photo">
+                <img src="PastorJamesGarner.jpg" alt="PastorJamesGarner" class="testimonial-photo">
                 <p>"A beautifully written masterpiece that spoke to my soul. Highly recommend it to anyone on a spiritual path." – <em>Pastor James Garner</em></p>
-            </div>                 <img src="Alfonz Driggers.jpg" alt="Alfonz Driggers" class="testimonial-photo"> <img src="Charles.jpg" alt="Charles" class="testimonial-photo"> <img src="chris.jpg" alt="chris" class="testimonial-photo"> <img src="Jeff.jpg" alt="Jeff" class="testimonial-photo"> <img src="Missionary Barbara.jpg" alt="Missionary Barbara" class="testimonial-photo"> <img src="Netta.jpg" alt="Netta" class="testimonial-photo"> <img src="Mr. Bill.jpg" alt="Mr. Bill" class="testimonial-photo"> <img src="Felisha.jpg" alt="Felisha" class="testimonial-photo">
+            </div> <img src="fonz.jpg" alt="fonz " class="testimonial-photo"> <img src="Charles.jpg" alt="Charles" class="testimonial-photo"> <img src="chris.jpg" alt="chris" class="testimonial-photo"> <img src="Jeff.jpg" alt="Jeff" class="testimonial-photo"> <img src="MissionaryBarbara.jpg" alt="MissionaryBarbara" class="testimonial-photo"> <img src="Netta.jpg" alt="Netta" class="testimonial-photo"> <img src="MrBill.jpg" alt="MrBill" class="testimonial-photo"> <img src="Felisha.jpg" alt="Felisha" class="testimonial-photo">
 
             <!-- Add additional testimonials as needed -->
         </div>
     </section>
-
-    <!-- New Business Cards Section -->
+      <!-- New Business Cards Section -->
     <section class="business-cards">
         <div class="container">
             <h2>Business Cards</h2>
@@ -253,19 +299,34 @@
         </div>
     </section>
 
-    <section class="contact">
+
+    <!-- Spiritual Corner Section -->
+    <section class="spiritual-corner">
         <div class="container">
-            <h2>Contact & Connect</h2>
-            <p>If you would like to learn more about the book or get in touch with the author, please contact us through the form below:</p>
-            <form action="submit_form.php" method="post">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+            <h2>Spiritual Corner</h2>
+            <p>Immerse yourself in spiritual videos that nurture and elevate your soul.</p>
+            <div class="video-container">
+                <!-- Example of embedded video -->
+                <video controls width="100%" class="spiritual-video">
+                    <source src="path/to/your/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls width="100%" class="spiritual-video">
+                    <source src="path/to/your/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls width="100%" class="spiritual-video">
+                    <source src="path/to/your/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls width="100%" class="spiritual-video">
+                    <source src="path/to/your/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- Add more videos as needed -->
+            </div>
         </div>
+    
     </section>
 
     <footer>
@@ -276,4 +337,4 @@
 
     <script src="scripts.js"></script>
 </body>
-</html>
+</html>   
